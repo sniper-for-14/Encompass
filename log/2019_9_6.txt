@@ -1,0 +1,16 @@
+2018/9/6
+
+
+错误类型：
+
+Error Message: Permission Denied (Yolo keras)
+- 放在相对目录, 训练保存数据
+
+
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: 
+      OOM when allocatvice:GPU:0 by allocator GPU_0_bfc
+
+
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: 
+OOM when allocating tensor with shape[32,256,52,52] and type float on
+ /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
